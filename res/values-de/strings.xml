@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cloudattach_dialog_available_apps_title">Keine Attachment App</string>
+    <string name="cloudattach_dialog_available_apps_message">Sie haben noch keine passende App zum Hochladen von Anhängen installiert. Bitte installieren Sie eine der folgenden Apps.</string>
+    <string name="cloudattach_app_db_attach_desc">Anhänge in der Dropbox speichern.</string>
+    <string name="cloudattach_app_gd_dbattach_desc">Anhänge in Google Drive speichern.</string>
+
+</resources>

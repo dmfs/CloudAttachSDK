@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cloudattach_dialog_available_apps_title">No Attachement Uploader</string>
+    <string name="cloudattach_dialog_available_apps_message">There is no attachment uploader app installed yet. Please install one of the following apps.</string>
+    <string name="cloudattach_app_db_attach_desc">Store attachments in dropbox.</string>
+    <string name="cloudattach_app_gd_dbattach_desc">Store attachments in Google Drive.</string>
+
+</resources>

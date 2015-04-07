@@ -1,0 +1,14 @@
+<dmfs:app-list xmlns:dmfs="http://dmfs.org/ns/cloudattach" >
+
+    <dmfs:app
+        description="@string/cloudattach_app_db_attach_desc"
+        icon="@drawable/ic_app_drobpox"
+        packageName="org.dmfs.cloudattach.db"
+        title="Drop Attach" />
+    <dmfs:app
+        description="@string/cloudattach_app_gd_dbattach_desc"
+        icon="@drawable/ic_app_google_drive"
+        packageName="org.dmfs.cloudattach.gd"
+        title="Drive Attach" />
+
+</dmfs:app-list>

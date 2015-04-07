@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp" >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/cloudattach_dialog_available_apps_title"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:layout_margin="8dp"
+        android:text="@string/cloudattach_dialog_available_apps_message"
+        android:textAppearance="@android:style/TextAppearance.Small" />
+
+    <TextView
+        android:id="@android:id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/cloudattach_sdk_selector"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@android:string/cancel"
+        android:textAllCaps="true"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+        android:textColor="@color/colorAccent" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@android:id/button1"
+        android:layout_below="@id/tv2"
+        android:layout_margin="8dp"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@drawable/cloudattach_sdk_selector" >
+    </ListView>
+
+</RelativeLayout>
